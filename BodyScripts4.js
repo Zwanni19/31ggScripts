@@ -89,9 +89,24 @@ function addPlayer(){
 	musicPlayer.setAttribute('src','https://www.wikplayer.com/code.js');
 	var skin = "skins/wikmini/funkyMiniBlue/skin.css"
 	switch(color){
+		case "#2F2F2F":
+			break;		
+		case "black":
+			break;		
+		case "#003":
+			break;		
+		case "#103352":
+			break;		
+		case "#04266A":
+			break;		
+		case "#004225":
+			skin = "skins/wikmini/funkyMiniGreen/skin.css"
+			break;
 		case "#4F1212":
 			skin = "skins/wikmini/funkyMiniGreen/skin.css"
 			break;
+		case "#222222":
+			break;		
 		default:
 			console.log("No Color");
 			
