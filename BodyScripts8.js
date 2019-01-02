@@ -106,7 +106,7 @@ function addPlayer(){
 			skin = "skins/wikmini/funkyMiniRed/skin.css"
 			break;
 		case "#222222":
-			skin = "https://cdn.jsdelivr.net/gh/anisfencheltee/31ggScripts/funkyMiniGrey.css"
+			skin = "https://cdn.jsdelivr.net/gh/anisfencheltee/31ggScripts/funkyMiniGrey1.css"
 			break;		
 		default:
 			console.log("No Color");
