@@ -10,7 +10,7 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
             this[i].parentElement.removeChild(this[i]);
         }
     }
-}
+} 
 
 function ehrenmannCounter(){
   var fhs = document.createElement('script');
