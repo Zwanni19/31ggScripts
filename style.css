@@ -1,0 +1,289 @@
+body {
+  color: {color:Text};
+  background: {color:Background};
+  font-family: '{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.1;
+  overflow-y: scroll;
+  /*max-width:1080px;*/
+  /*margin-left:auto;*/
+  /*margin-right:auto;*/
+}
+#body {
+    padding-top: 0.8px;
+    padding-bottom: 0.8px;
+}
+.pixel {
+    top:0px;
+    left:0px;
+    position:fixed;
+}
+
+
+
+.notes .action a {
+    color: {color:Text};
+}
+header a, a.post-title {
+    color: {color:Text};
+}
+a.post-title:hover {
+    text-decoration: none;
+    color: {color:Link};
+}
+a {
+    color: {color:Link};
+    text-decoration: none;
+}
+{CustomCSS}
+.menu {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#top10 {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+}
+#color {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+}
+#snowChooser {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+}
+.credit2, #snowChooser, #color, #top10 {
+    /*padding-left: 1em*/
+}
+#disqus_thread {
+    padding-left: 0.4em;
+    font-family: '{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
+}
+
+button{
+    margin-left:9px;
+}
+#foo{
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+    width:100%;
+}
+#voo{
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+    width:100%;
+}
+#vocaroo{
+    position: fixed;   
+    height: auto; width: auto;    
+    left: 2px; top: 10px;
+}
+#tvb{
+    position: fixed;   
+    height: auto; width: auto;    
+    left: 75px; top: 10px;
+}
+#topgrinder{
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+    width: 100%;/*
+    position: relative;*/
+    float:right;
+    padding:0 2px;
+    margin-bottom:5px;
+    border: px solid #967c0f;
+    text-align: left;
+	font: 18px '{text:GoogleWebFont}', Trebuchet MS, Lucida Grande, Helvetica, Arial, sans-serif;
+	color: #967c0f;
+} 
+.logo {
+    position: fixed;
+    bottom: -10px;
+    right: 0px;
+    float: left;
+    cursor: none;
+   opacity: 0.5; 
+   transform: rotate(360deg);
+} 
+.logoin img{
+   position: absolute;
+   bottom: 0 px;
+   right: 0 px;
+   padding: 0;
+   margin: 0;
+   width: 105px;
+   height: auto;
+   transform: rotate(360deg);
+}
+#logocount {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    margin: -62px 0px 0px 0px;
+    -webkit-transform: scale(0.31);
+    -moz-transform: scale(0.31);
+    -ms-transform: scale(0.31);
+    -o-transform: scale(0.31);
+    transform: scale(0.31);
+}
+.logo:hover { 
+    cursor: none;
+    opacity: 0.8;     
+}
+.logo-mobile {
+    display: block;
+    opacity: 0.8;
+   transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+#fixed-left {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+#fixed-left p{
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+ line-height: 0.1;
+}
+#count {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    position: relative;
+}
+.counters {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    line-height:0.5;
+    border: 0px;
+}
+#bottom {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    width:666px;
+}
+.bottom-left {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    text-align: left;
+    float: left;
+}
+.bottom-right {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    text-align: right;
+}
+.bottom-center {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    text-align: center;
+}
+.bottom-right a:hover{
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    text-decoration: underline;
+}
+#disqus_override {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;    
+}
+.grindlayout {
+    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+}
+.w-top{
+    position: relative;   
+    height: auto; width: auto;   
+}
+.w-top-left {
+    position: fixed;   
+    height: auto; width: auto;    
+    left: 15px; top: 15px;
+}
+.w-top-left-mobile {
+}
+.w-bottom-left {
+    position: fixed;   
+    height: auto; width: auto;    
+    left: 15px; bottom: 40px;
+}
+.w-top-left-player {
+    position: fixed;   
+    height: auto; width: auto;    
+    left: -10px; top: 30px;
+}
+.w-top-left-player2 {
+    position: fixed;   
+    height: auto; width: auto;    
+    left: 0px; top: 40px;
+}
+/*MEDIA QUERIES
+Dieser Abschnitt beinhaltet alles was für Mobilgeräte benötigt wird.
+*/
+@media (max-width: 1079px) {
+    .logo, .w-top-left, .w-top{display: none !important;}
+}
+/* THIS ONE IS THE VOCAROO RECORDER */
+@media (max-width: 1500px) {
+    .w-top-left-player, #voo, #vocaroo, .w-top-left-player2, #tv, #tvb{display: none !important;}
+}
+@media (min-width: 1080px) {
+    .logo-mobile, .w-top-left-mobile{display: none !important;}
+}  
+/*Neues Zeug was Anis eingebaut hat*/
+canvas {
+  display: block;
+  float:left;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  width:97%;
+  /*height: 100%;        */
+  cursor: crosshair;
+}
+
+.container {
+    z-index: 10;
+    width: 100%;
+     height: 100%;        
+     z-index: 10;  /* <- higher than your canvases if it needs to go on top */
+     position: absolute;
+}
+
+@media (min-width:320px)  {
+    
+}
+@media (max-width:640px)  { 
+    /*.credit{
+        display:block;
+        width:100%;
+        margin-top: 6px;
+        text-align: center;
+    }    
+    .credit2{
+        display:block;
+        width:100%;
+        text-align: center;
+        padding-bottom: -31px;
+        margin-top: 2px;
+        padding:0px !important;
+    }*/
+    .credit{
+        display:inline;
+        float: left;
+        margin-top: 6px;
+    }    
+    .credit2{
+        display:inline;
+        float: right;
+        text-align: right;
+        padding-bottom: -31px;
+        margin: 2px;
+    }
+}
+@media (min-width:641px)  { 
+    
+    .credit{
+        display:inline;
+        float: left;
+        margin-top: 6px;
+    }    
+    .credit2{
+        display:inline;
+        float: right;
+        text-align: right;
+        padding-bottom: -31px;
+        margin: 2px;
+    }
+}
+.bottom-center br {
+    line-height: 5px;
+}
