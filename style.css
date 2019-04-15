@@ -4,12 +4,6 @@
     left:0px;
     position:fixed;
 }
-.menu {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
-    margin-left:auto;
-    margin-right:auto;
-}
-
 #top10 {
     font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
 }
@@ -132,10 +126,6 @@ button{
 .bottom-right {
     font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
     text-align: right;
-}
-.bottom-center {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
-    text-align: center;
 }
 .bottom-right a:hover{
     font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
