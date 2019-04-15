@@ -5,13 +5,13 @@
     position:fixed;
 }
 #top10 {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 }
 #color {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 }
 #snowChooser {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 }
 .credit2, #snowChooser, #color, #top10 {
     /*padding-left: 1em*/
@@ -51,7 +51,7 @@ button{
     margin-bottom:5px;
     border: px solid #967c0f;
     text-align: left;
-	font: 18px '{text:GoogleWebFont}', Trebuchet MS, Lucida Grande, Helvetica, Arial, sans-serif;
+	font: 18px '{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 	color: #967c0f;
 } 
 .logo {
@@ -74,7 +74,7 @@ button{
    transform: rotate(360deg);
 }
 #logocount {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;  
     margin: -62px 0px 0px 0px;
     -webkit-transform: scale(0.31);
     -moz-transform: scale(0.31);
@@ -96,46 +96,46 @@ button{
 -webkit-transform: rotate(360deg);
 }
 #fixed-left {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;  
     position: relative;
     top: 10px;
     left: 0px;
 }
 #fixed-left p{
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
  line-height: 0.1;
 }
 #count {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;  
     position: relative;
 }
 .counters {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;  
     line-height:0.5;
     border: 0px;
 }
 #bottom {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;  
     width:666px;
 }
 .bottom-left {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;  
     text-align: left;
     float: left;
 }
 .bottom-right {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
     text-align: right;
 }
 .bottom-right a:hover{
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;   
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;   
     text-decoration: underline;
 }
 #disqus_override {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;    
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;   
 }
 .grindlayout {
-    font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
+    font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 }
 .w-top{
     position: relative;   
