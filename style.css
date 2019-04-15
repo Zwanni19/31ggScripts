@@ -1,41 +1,9 @@
-body {
-  color: {color:Text};
-  background: {color:Background};
-  font-family: '{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
-  font-size: 100%;
-  line-height: 1.1;
-  overflow-y: scroll;
-  /*max-width:1080px;*/
-  /*margin-left:auto;*/
-  /*margin-right:auto;*/
-}
-#body {
-    padding-top: 0.8px;
-    padding-bottom: 0.8px;
-}
+#body {}
 .pixel {
     top:0px;
     left:0px;
     position:fixed;
 }
-
-
-
-.notes .action a {
-    color: {color:Text};
-}
-header a, a.post-title {
-    color: {color:Text};
-}
-a.post-title:hover {
-    text-decoration: none;
-    color: {color:Link};
-}
-a {
-    color: {color:Link};
-    text-decoration: none;
-}
-{CustomCSS}
 .menu {
     font-family:'{text:GoogleWebFont}', Helvetica, Arial, sans-serif;
     margin-left:auto;
