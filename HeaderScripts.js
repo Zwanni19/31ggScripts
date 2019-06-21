@@ -196,3 +196,13 @@ function toggle_visibility(id) {
    else
       e.style.display = 'block';
 }
+//=============================================
+//******Für ein und Ausblenden für Voting*****
+//=============================================
+function toggle_visibility2(id) {
+   var e = document.getElementById(id);
+   if(e.style.display == 'block')
+      e.style.display = 'none';
+   else
+      e.style.display = 'block';
+}
