@@ -7,6 +7,9 @@
 #top10, #reaction {
     font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 }
+#reaction {
+	transform: scale(1.2);
+}
 #color {
     font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 }
