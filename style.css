@@ -57,6 +57,7 @@ button{
     text-align: left;
 	font: 18px '{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 	color: #967c0f;
+	transform: scale(0.8);
 } 
 .logo {
     position: fixed;
