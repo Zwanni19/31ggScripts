@@ -140,7 +140,7 @@ function toggleSnowChooser(){
 }
 
 //============================================= | ALTE ID 5573543
-//***********Ehrenmann Counter Kram************
+//***********Ehrenmann Counter Kram************  | FUE ZUKUNFT 5614418
 //============================================= | NEUE ID 5597336
 Element.prototype.remove = function() {
     this.parentElement.removeChild(this);
@@ -155,7 +155,7 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
 
 function ehrenmannCounter(){
   var fhs = document.createElement('script');
-  var fhs_id = "5614418";
+  var fhs_id = "5597336";
 
   var ref = (''+document.referrer+'');
   var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
@@ -163,11 +163,11 @@ function ehrenmannCounter(){
   fhs.src = "//freehostedscripts.net/ocounter.php?site="+fhs_id+"&e1=Ehrenmann anwesend!&e2=Ehrenmänner anwesend!&r="+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
 
   document.head.appendChild(fhs);
-  var spanElem=document.getElementById("o_5614418");
+  var spanElem=document.getElementById("o_5597336");
   //console.log(spanElem)
   if (spanElem != null){
     //console.log("Remove")
-  	document.getElementById("o_5614418").remove();
+  	document.getElementById("o_5597336").remove();
   }else{
     document.getElementById("lable").innerText=" Laden..."
   }
