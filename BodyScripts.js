@@ -163,11 +163,11 @@ function ehrenmannCounter(){
   fhs.src = "//freehostedscripts.net/ocounter.php?site="+fhs_id+"&e1=Ehrenmann anwesend!&e2=Ehrenmänner anwesend!&r="+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
 
   document.head.appendChild(fhs);
-  var spanElem=document.getElementById("o_5597336");
+  var spanElem=document.getElementById("o_5614418");
   //console.log(spanElem)
   if (spanElem != null){
     //console.log("Remove")
-  	document.getElementById("o_5597336").remove();
+  	document.getElementById("o_5614418").remove();
   }else{
     document.getElementById("lable").innerText=" Laden..."
   }
