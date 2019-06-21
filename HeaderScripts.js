@@ -187,9 +187,19 @@ function changeColor(first) {
 }
 
 //=============================================
-//******Für ein und Ausblenden Top10 Liste*****
+//******Für ein und Ausblenden Top-Commenter Liste*****
 //=============================================
 function toggle_visibility(id) {
+   var e = document.getElementById(id);
+   if(e.style.display == 'block')
+      e.style.display = 'none';
+   else
+      e.style.display = 'block';
+}
+//=============================================
+//******Für ein und Ausblenden des Votings*****
+//=============================================
+function toggle_visibility2(id) {
    var e = document.getElementById(id);
    if(e.style.display == 'block')
       e.style.display = 'none';
