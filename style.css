@@ -4,7 +4,7 @@
     left:0px;
     position:fixed;
 }
-#top10 {
+#top10, #react {
     font-family:'{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 }
 #color {
