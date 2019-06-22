@@ -52,8 +52,8 @@ button{
     position: relative;*/
     float:right;
     padding:0 2px;
-
-    border: 1px solid #967c0f;
+    margin: 10px -100px 0 -100px
+    border: 0px solid #967c0f;
     text-align: left;
 	font: 20px '{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 	color: #967c0f;
