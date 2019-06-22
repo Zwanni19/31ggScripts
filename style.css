@@ -172,7 +172,7 @@ button{
 Dieser Abschnitt beinhaltet alles was für Mobilgeräte benötigt wird.
 */
 @media (max-width: 1079px) {
-    .logo, .w-top-left, .w-top{display: none !important;}
+    .logo, .w-top-left, .w-top, #tvb, #vocaroo{display: none !important;}
 }
 /* THIS ONE IS THE VOCAROO RECORDER */
 @media (max-width: 1500px) {
