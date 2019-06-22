@@ -52,12 +52,12 @@ button{
     position: relative;*/
     float:right;
     padding:0 2px;
-   /* margin: -5em;*/
+   
     border: 1px solid #967c0f;
     text-align: left;
 	font: 18px '{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 	color: #967c0f;
-	/*transform: scale(0.8);*/
+	
 } 
 .logo {
     position: fixed;
