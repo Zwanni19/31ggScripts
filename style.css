@@ -56,12 +56,12 @@ button{
 	/*    border: none;*/
     border: px solid #967c0f;
     text-align: left;
-	font: 11px '{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
+	font: 10px '{text:GoogleWebFont}', Verdana, Helvetica, sans-serif;
 	color: #967c0f;
 
 }
 li.a {
-	
+	margin-bottom: -5px;
 }
 .logo {
     position: fixed;
