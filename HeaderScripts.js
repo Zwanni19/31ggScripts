@@ -163,7 +163,7 @@ function removeCookie(c_name){
 //***************Colorchanger******************
 //=============================================
 function changeColor(first) {
-  var colors = ["#2F2F2F", "black", "#003", "#103352", "#04266A", "#004225", "#4F1212", "#222222", "#DCDCDC", "#FFA500", "#EEEE00"];
+  var colors = ["#2F2F2F", "black", "#003", "#103352", "#04266A", "#004225", "#4F1212", "#222222", "#DCDCDC", "#b57809", "#d1d171"];
   var colorIndex = 0;
   var color = getCookie("colorIndex")
   //console.log(color)
