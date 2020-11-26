@@ -42,11 +42,11 @@ function ehrenmannCounter(){
     document.getElementById("counter").innerHTML = userCount
     //console.log("Breite: " + document.body.clientWidth);
     if(userCount!=1 && document.body.clientWidth >= 455){
-    	document.getElementById("lable").innerText=" Ehrenmänner anwesend!"
+    	document.getElementById("lable").innerText=" süchtige anwesend!"
     }else if (userCount==1 && document.body.clientWidth >= 455){
-    	document.getElementById("lable").innerText=" Ehrenmann anwesend!"
+    	document.getElementById("lable").innerText=" süchtiger anwesend!"
     }else{
-    	document.getElementById("lable").innerText=" User On!"
+    	document.getElementById("lable").innerText="!"
     }
   },1000)
 }
