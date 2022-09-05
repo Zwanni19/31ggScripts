@@ -19,8 +19,8 @@ function ehrenmannCounter(){
   var ref = (''+document.referrer+'');
   var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
 
-  fhs.src = "//freehostedscripts.net/ocounter.php?site="+fhs_id+""+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
-
+ // fhs.src = "//freehostedscripts.net/ocounter.php?site="+fhs_id+""+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
+  fhs.src = "//freehostedscripts.net/ocounter.php?site="+fhs_id+"&e1=Ehrenmann anwesend!&e2=Ehrenmänner anwesend!&r="+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
   document.head.appendChild(fhs);
   var spanElem=document.getElementById("o_5679518");
   //console.log(spanElem)
