@@ -14,7 +14,7 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
 
 function ehrenmannCounter(){
   var fhs = document.createElement('script');
-  var fhs_id = "5658482";
+  var fhs_id = "5679518";
 
   var ref = (''+document.referrer+'');
   var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
@@ -22,11 +22,11 @@ function ehrenmannCounter(){
   fhs.src = "//freehostedscripts.net/ocounter.php?site="+fhs_id+""+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
 
   document.head.appendChild(fhs);
-  var spanElem=document.getElementById("o_5658482");
+  var spanElem=document.getElementById("o_5679518");
   //console.log(spanElem)
   if (spanElem != null){
     //console.log("Remove")
-  	document.getElementById("o_5658482").remove();
+  	document.getElementById("o_5679518").remove();
   }else{
     document.getElementById("lable").innerText=" Laden..."
   }
