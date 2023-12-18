@@ -133,6 +133,32 @@ function checkFireworks(){
     
 }
 
+document.addEventListener('DOMContentLoaded', function () {
+    const snowflakesContainer = document.getElementById('snowflakes');
+    const toggleSnowflakes = document.getElementById('toggleSnowflakes');
+
+    toggleSnowflakes.addEventListener('change', function () {
+        if (toggleSnowflakes.checked) {
+            generateSnowflakes();
+        } else {
+            removeSnowflakes();
+        }
+    });
+
+    function generateSnowflakes() {
+        for (let i = 0; i < 50; i++) {
+            const snowflake = document.createElement('div');
+            snowflake.className = 'snowflake';
+            snowflake.style.left = `${Math.random() * 100}vw`;
+            snowflake.style.animationDuration = `${Math.random() * 2 + 1}s`;
+            snowflakesContainer.appendChild(snowflake);
+        }
+    }
+
+    function removeSnowflakes() {
+        snowflakesContainer.innerHTML = '';
+    }
+});
 
 /** @license
  * DHTML Snowstorm! JavaScript-based snow for web pages
